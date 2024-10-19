@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.nav-left, .nav-middle, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-middle a {
+  color: black;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.nav-right .icon {
+  width: 24px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.banner-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+thead {
+  background-color: #f8f3e7;
+}
+
+.cart-section {
+  display: flex;
+  margin: 20px;
+  text-align: center;
+}
+
+.cart-left {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.cart-right {
+  flex: 1;
+  background-color: #f8f3e7;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.cart-summary h1 {
+  margin: 10px;
+}
+
+.cart-summary div {
+  margin: 10px;
+}
+
+.cart-entry {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25%;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f3e7;
+}
+
+.card {
+  display: flex;
+  height: 50%;
+  margin: auto;
+  width: 22%;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.card-content {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.checkout-btn {
+  margin: 10px;
+  background-color: #f8f3e7;
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 50px;
+}
+
+.delete-btn {
+  color: #b88f2e;
+}
